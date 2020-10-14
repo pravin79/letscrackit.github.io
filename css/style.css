@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: rgb(255, 164, 27);  
+}
+
+.header a{
+    filter: invert();
+    font-weight: bold;
+}
+
+.brand-logo{
+    font-size: 1.5rem;
+}
+
+.logo-img{
+    width: 50px;
+    filter: invert();
+}
+
+#menus .icons{
+    width: 25px;
+    
+}
