@@ -4,7 +4,7 @@
 }
 
 .header{
-    background: rgb(255, 164, 27);  
+    background: rgb(114, 27, 255);  
 }
 
 .header a{
@@ -23,11 +23,16 @@
 
 #menus .icons{
     width: 25px;
-    
+    transition: .3s;    
+}
+
+#menus .icons:hover{
+    transform: translateY(-5px);
 }
 
 #search-bar .items-bar{
     display: flex;
+    border-bottom: 0.3px solid rgba(17, 17, 17, 0.233);
 }
 
 .bar-item{
@@ -59,4 +64,51 @@
 .it1{
     margin-left: ;
     left: 30px;
+}
+
+.cat{
+   right: 30px;
+}
+
+.banner-cont{
+    text-align: center;
+    margin: auto 0;
+}
+
+.banner-cont h1{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.banner-cont p{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.img-bx{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.img-bx img{
+    width: 140%;
+    height: 100%;
+}
+
+.banner-cont .btn-ln{
+    padding: 15px 30px;
+    border: 1px solid  rgb(114, 27, 255);
+    border-radius: 5px;
+    color:  rgb(114, 27, 255);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.banner-cont .btn-ln:hover{
+    background: rgb(114, 27, 255);
+    color: #fff;
 }
