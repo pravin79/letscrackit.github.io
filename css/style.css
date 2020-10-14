@@ -25,3 +25,38 @@
     width: 25px;
     
 }
+
+#search-bar .items-bar{
+    display: flex;
+}
+
+.bar-item{
+    text-align: center;
+    padding: 20px;
+}
+
+.bar-item input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 20px;
+    background: rgba(158, 187, 240, 0.233);
+    border-radius: 5px;
+}
+
+.it{
+    padding-top: 20px;
+    border-radius: 5PX;
+}
+
+.it a{
+    background: rgba(158, 187, 240, 0.233);
+    padding: 14px; 
+    display: block;
+    border-radius: 5px
+}
+
+.it1{
+    margin-left: ;
+    left: 30px;
+}
