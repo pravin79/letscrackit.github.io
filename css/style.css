@@ -6,6 +6,7 @@
 
 .header{
     background: rgb(114, 27, 255);  
+    padding: 0 4%;
 }
 
 .header a{
@@ -31,9 +32,18 @@
     transform: translateY(-5px);
 }
 
+.lg-sn{
+    border: 2px solid #111;
+    border-radius: 5px;
+    /* margin: 0 10px; */
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+
 #search-bar .items-bar{
     display: flex;
-    border-bottom: 0.3px solid rgba(17, 17, 17, 0.233);
+    border-bottom: 0.3px solid rgba(17, 17, 17, 0.075);
 }
 
 .bar-item{
@@ -63,12 +73,117 @@
 }
 
 .it1{
-    /* margin-left: ; */
-    left: 30px;
+    right: 30px;
+}
+
+#categories, #categories ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#categories{
+    width: 900px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#categories:before,
+#categories:after{
+    content: '';
+    display: table;
+}
+
+#categories:after{
+    clear: both;
+}
+
+#categories li{
+    float: left;
+    background: #fff;
+    position: relative;
+}
+
+#categories a{
+    float: left;
+    padding: 12px 30px;
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+#categories li:hover > a{
+    color: #fff;
+    background: rgb(114, 27, 255);
+}
+
+#categories ul{
+    margin: 20px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    z-index: 1;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+#categories li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#categories ul ul{
+    top: 0;
+    left: 135px;
+    margin: 0 0 0 20px;
+}
+
+#categories ul li{
+    float: none;
+    display: block;
+    border: 0;
+}
+
+#categories ul li:last-child{
+    box-shadow: none;
+}
+
+#categories ul a{
+    padding: 10px;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+}
+
+#categories ul li:first-child > a{
+    border-radius: 3px 3px 0 0;
+}
+
+#categories ul li :first-child a:after{
+    content: '';
+    position: absolute;
+    left: 40px;
+    top: -6px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+}
+
+#categories ul ul li :first-child a:after{
+    margin-top: -6px;
+    border-left: 0;
+    left: -6px;
+    top: 50%;
+    border-left: 6px solid transparent;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
 }
 
 .cat{
-   right: 30px;
+   left: 60px;
 }
 
 .banner-cont{
@@ -85,6 +200,7 @@
 .banner-cont p{
     font-size: 2rem;
     margin-bottom: 20px;
+    color: rgba(17, 17, 17, 0.493);
 }
 
 /* .img-bx{
@@ -146,6 +262,7 @@
 .tr-cont p{
     font-size: 1.2rem;
     margin-bottom: 30px;
+    color: rgba(17, 17, 17, 0.493);
 }
 
 .rec-img-pm{
