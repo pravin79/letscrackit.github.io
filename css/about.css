@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header{
+    background: rgb(114, 27, 255);  
+    padding: 0 4%;
+    overflow-x: hidden;
+}
+
+.header a{
+    filter: invert();
+    font-weight: bold;
+}
+
+.brand-logo{
+    font-size: 1.5rem;
+}
+
+.logo-img{
+    width: 50px;
+    filter: invert();
+}
+
+#menus .icons{
+    width: 25px;
+    transition: .3s;    
+}
+
+#menus .icons:hover{
+    transform: translateY(-5px);
+}
+
+.lg-sn:hover{
+    border-bottom: 2px solid rgba(17, 17, 17, 0.37);    
+}
+
+#wwd{
+    padding: 2% 5%;
+}
+
+#wwd .img-bx img{
+    width: 100%;
+}
+
+.wwd-info-text{
+    margin: auto 0;
+}
+
+.wwd-info-tex h2{
+    font-weight: bold;
+}
+
+.wwd-info-text p{
+    font-weight: 400;
+}
