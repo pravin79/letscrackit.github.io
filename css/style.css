@@ -7,6 +7,7 @@
 .header{
     background: rgb(114, 27, 255);  
     padding: 0 4%;
+    overflow-x: hidden;
 }
 
 .header a{
@@ -39,6 +40,11 @@
     display: block;
     width: 80px;
     text-align: center;
+}
+
+#search-bar{
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #search-bar .items-bar{
@@ -282,7 +288,7 @@
 
 .rec-img-pm .cs-bx{
     padding: 1%;
-    text-align: center;
+    /* text-align: center; */
     margin: 10px;
     border: .2px solid rgba(105, 105, 105, 0.24);
     padding: 10px;
@@ -292,4 +298,38 @@
 
 .rec-img-pm .cs-bx:hover{
     background: rgba(105, 105, 105, 0.096);
+}
+
+.heading{
+    font-weight: bold;
+}
+
+.info-title{
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: rgba(17, 17, 17, 0.644);
+    font-weight: 500;
+}
+
+.cs-name{
+    font-weight: 700;
+    color: rgba(17, 17, 17, 0.644);
+    margin-top: 5px;
+}
+
+.checked {
+    color: orange;
+} 
+
+.user{
+    color: rgba(17, 17, 17, 0.459);
+}
+
+.best-sale{
+    color: rgb(97, 59, 1);
+    background: coral;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 5px;
 }
