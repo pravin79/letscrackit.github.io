@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lets crack it</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
    <div class="container-fluid header">
     <nav class="navbar navbar-expand-lg navbar-light navigation sticky">
-        <a class="navbar-brand brand-logo" href="index.html"><img class="logo-img" src="images/onlinelogomaker-101420-1026-2887.png"></img>Let's Crack It</a>
+      <a class="navbar-brand brand-logo" href="index.html"><img class="logo-img" src="assets/imgs/onlinelogomaker-101420-1026-2887.png"></img>Let's Crack It</a>
        
         
         <button class="navbar-toggler btns" type="button" data-toggle="collapse" data-target="#menus" aria-controls="menus" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,28 +30,28 @@
         <div class="collapse navbar-collapse nav-it" id="menus">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link links" href="about.html">About</a>
+                <a class="nav-link links lg-sn" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="tutor.html">Become a Tutor</a>
+                <a class="nav-link links lg-sn" href="tutor.html">Become a Tutor</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="mycourse.html">My Course</a>
+                <a class="nav-link links lg-sn" href="mycourse.html">My Course</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="login.html">Login</a>
+                <a class="nav-link links lg-sn" href="login.html">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="signup.html">Signup</a>
+                <a class="nav-link links lg-sn" href="signup.html">Signup</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="#"><img class="icons" src="images/icons8-heart-144.png" alt=""></a>
+                <a class="nav-link links" href="#"><img class="icons" src="assets/imgs/icons8-heart-144.png" alt=""></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="#"><img class="icons" src="images/icons8-shopping-cart-96.png" alt=""></a>
+                <a class="nav-link links" href="#"><img class="icons" src="assets/imgs/icons8-shopping-cart-96.png" alt=""></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="#"><img class="icons" src="images/icons8-notification-96.png" alt=""></a>
+                <a class="nav-link links" href="#"><img class="icons" src="assets/imgs/icons8-notification-96.png" alt=""></a>
               </li>
             </ul>
           </div>
@@ -50,69 +59,79 @@
    </div>
 
 
-   <div class="booking-form-signup" id="mediasignup" style="margin-bottom: 100px;">
-    <form class="loginform" onsubmit="return signupvalidate();" action="index.html" method="post">
-        <h2 class="signupheader">Sign Up</h2>
+    <div class="row">
+      <div class="col-md-6">
+      <div class="booking-form-signup" id="mediasignup" style="margin-bottom: 100px;width: 52%;">
+        <form class="loginform" onsubmit="return signupvalidate();" action="index.html" method="post">
+            <h2 class="signupheader">Sign Up</h2>
 
-        <div class="form-group">
-            <span class="form-label">Firstname</span>
-            <input class="form-control" type="text" id="firstname" placeholder="Enter Firstname" oninput="checkbox2()"/>
-            <span id="fname" class="text-danger"></span>
-        </div>
+            <div class="form-group">
+                <span class="form-label">Firstname</span>
+                <input class="form-control" type="text" id="firstname" placeholder="Enter Firstname" oninput="checkbox2()"/>
+                <span id="fname" class="text-danger"></span>
+            </div>
 
-        <div class="form-group">
-            <span class="form-label">Lastname</span>
-            <input class="form-control" type="text" id="lastname" placeholder="Enter Lastname" oninput="checkbox2()"/>
-            <span id="lname" class="text-danger"></span>
-        </div>
+            <div class="form-group">
+                <span class="form-label">Lastname</span>
+                <input class="form-control" type="text" id="lastname" placeholder="Enter Lastname" oninput="checkbox2()"/>
+                <span id="lname" class="text-danger"></span>
+            </div>
 
-        <div class="form-group">
-            <span class="form-label">Email Id</span>
-            <input class="form-control" type="text" id="emailid" placeholder="Enter Email Id" oninput="checkbox2()"/>
-            <span id="eid" class="text-danger"></span>
-        </div>
+            <div class="form-group">
+                <span class="form-label">Email Id</span>
+                <input class="form-control" type="text" id="emailid" placeholder="Enter Email Id" oninput="checkbox2()"/>
+                <span id="eid" class="text-danger"></span>
+            </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <span class="form-label">Gender</span><br>
+                            <input type="radio" id="male" name="gender" value="male" oninput="checkbox2()">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female" oninput="checkbox2()">
+                            <label for="female">Female</label><br>
+                        </div>
+                        <span id="radio" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <span class="form-label">Age</span>
+                            <input class="form-control" type="number" id="age" placeholder="Age" oninput="checkbox2()"/>
+                            <span id="agee" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="form-group">
+                <span class="form-label">Password</span>
+                <input class="form-control" type="password" id="password" placeholder="Password" oninput="checkbox2()"/>
+                <span id="pass" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <span class="form-label">Confirm Password</span>
+                <input class="form-control" type="password" id="cpassword" placeholder="Re-Enter password" oninput="checkbox2()"/>
+                <span id="cpass" class="text-danger"></span>
+            </div>
+
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="form-group">
-                        <span class="form-label">Gender</span><br>
-                        <input type="radio" id="male" name="gender" value="male" oninput="checkbox2()">
-                        <label for="male">Male</label>
-                        <input type="radio" id="female" name="gender" value="female" oninput="checkbox2()">
-                        <label for="female">Female</label><br>
-                    </div>
-                    <span id="radio" class="text-danger"></span>
+                    <button type="submit" class="submit-btn">Sign Up</button>
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="form-group">
-                        <span class="form-label">Age</span>
-                        <input class="form-control" type="number" id="age" placeholder="Age" oninput="checkbox2()"/>
-                        <span id="agee" class="text-danger"></span>
-                    </div>
+                    <div style="margin-top: 10px; opacity: 0.7">Already a User?<a href="login.html" style="margin-left: 10px;">Login</a></div>
                 </div>
             </div>
-
-        <div class="form-group">
-            <span class="form-label">Password</span>
-            <input class="form-control" type="password" id="password" placeholder="Password" oninput="checkbox2()"/>
-            <span id="pass" class="text-danger"></span>
+            </form>
+          </div>
         </div>
-
-        <div class="form-group">
-            <span class="form-label">Confirm Password</span>
-            <input class="form-control" type="password" id="cpassword" placeholder="Re-Enter password" oninput="checkbox2()"/>
-            <span id="cpass" class="text-danger"></span>
+        <div class="col-md-6">
+          <img src="assets//imgs/undraw_sign_in_e6hj.png" style="width: 80%;margin: auto;margin-top: 120px;">
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-sm-6">
-                <button type="submit" class="submit-btn">Sign Up</button>
-            </div>
-
-            <div class="col-sm-6">
-                <div style="margin-top: 10px; opacity: 0.7">Already a User?<a href="login.html" style="margin-left: 10px;">Login</a></div>
-            </div>
-        </div>
 
 
         <script type="text/javascript" src="script.js"></script>
