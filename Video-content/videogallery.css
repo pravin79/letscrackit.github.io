@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#video{
+    margin: 20px 0;
+    padding: 0 2%;
+}
 
 .side-video-bx{
     /* width: 350px;
