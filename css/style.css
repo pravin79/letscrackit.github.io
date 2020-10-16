@@ -37,6 +37,19 @@
     border-bottom: 2px solid rgba(17, 17, 17, 0.37);    
 }
 
+/* .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar{
+    background: rgb(114, 27, 255);
+    width: 100%;
+    left: 0;
+} */
+
 #search-bar{
     padding: 0 1%;
     
@@ -334,6 +347,21 @@
     display: inline-block;
     border-radius: 5px;
     padding: 0 5px;
+}
+
+.info-pop{
+    text-align: left;
+    margin: auto 0;
+}
+
+#popular-cont{
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+.popular-cs img{
+    width: 300px;
 }
 
 /* nav dropdown */
