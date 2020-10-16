@@ -13,7 +13,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -71,49 +71,71 @@
           </nav>
        </div>
 
-       <div>
-           <h2>Certifide Quizes</h2>
+       <div style="margin-top: 50px;">
+           <center><h3>Web programming MCQs for placement and interview</h3></center>
        </div>
 
-       <!-- <section class="container-fluid">
-            <div class="row">
-                <div class="cat-items-bx">
-                    <a href="#">Development</a>
-                </div>
-                <div class="cat-items-bx">
-                    <a href="#">Business</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="cat-items-bx">
-                    <a href="#">IT & Software</a>
-                </div>
-                <div class="cat-items-bx">
-                    <a href="#">Design</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="cat-items-bx">
-                    <a href="#">Marketing</a>
-                </div>
-                <div class="cat-items-bx">
-                    <a href="#">Music</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="cat-items-bx">
-                    <a href="#">Lifestyle</a>
-                </div>
-                <div class="cat-items-bx">
-                    <a href="#">Health & Fitness</a>
-                </div>
-            </div>
-       </section> -->
-
-       <section class="container-fluid">
-        <div>
-            <h3>1.) What is the preferred way for adding a background color in HTML?</h3>
+       <div class="booking-form-login" id="medialogin" style="width: 50%;box-shadow: 0px 1px 10px -1px #111;margin-bottom: 60px;margin-top: 50px;margin-left: 400px;">
+        <form class="loginform" onsubmit="return loginvalidate();" action="index.html">
+          <div class="form-group">
+            <span class="form-label">1.) Which of the following JavaScript cannot do?</span><br>
+            <input type="radio" id="a" value="male" style="margin-left: 50px;">
+            <label for="male">JavaScript can react to events</label><br>
+            <input type="radio" id="b" value="female" style="margin-left: 50px;">
+            <label for="female">JavaScript can manipulate HTML elements</label><br>
+            <input type="radio" id="c" value="female" style="margin-left: 50px;">
+            <label for="female">JavaScript can be use to validate data</label><br>
+            <input type="radio" id="d" value="female" style="margin-left: 50px;">
+            <label for="female">All of the Above</label><br>
+          </div>
+          <div class="form-group">
+            <span class="form-label">2.) Whats so great about XML?</span><br>
+            <input type="radio" id="a" value="male" style="margin-left: 50px;">
+            <label for="male">Easy data exchange</label><br>
+            <input type="radio" id="b" value="female" style="margin-left: 50px;">
+            <label for="female">High speed on network</label><br>
+            <input type="radio" id="c" value="female" style="margin-left: 50px;">
+            <label for="female">Only B.is correct</label><br>
+            <input type="radio" id="d" value="female" style="margin-left: 50px;">
+            <label for="female">Both A & B</label><br>
+          </div>
+          <div class="form-group">
+            <span class="form-label">3.) _________ keyword is used to declare variables in javascript.</span><br>
+            <input type="radio" id="a" value="male" style="margin-left: 50px;">
+            <label for="male">Var</label><br>
+            <input type="radio" id="b" value="female" style="margin-left: 50px;">
+            <label for="female">Dim</label><br>
+            <input type="radio" id="c" value="female" style="margin-left: 50px;">
+            <label for="female">String</label><br>
+            <input type="radio" id="d" value="female" style="margin-left: 50px;">
+            <label for="female">None of the above</label><br>
+          </div>
+          <div class="form-group">
+            <span class="form-label">4.) The attribute used to define a new namespace is.</span><br>
+            <input type="radio" id="a" value="male" style="margin-left: 50px;">
+            <label for="male">XMLNS</label><br>
+            <input type="radio" id="b" value="female" style="margin-left: 50px;">
+            <label for="female">XmlNameSpace</label><br>
+            <input type="radio" id="c" value="female" style="margin-left: 50px;">
+            <label for="female">Xmlns</label><br>
+            <input type="radio" id="d" value="female" style="margin-left: 50px;">
+            <label for="female">XmlNs</label><br>
+          </div>
+          <div class="form-group">
+            <span class="form-label">5.) Which of the following options is correct with regard to HTML?</span><br>
+            <input type="radio" id="a" value="male" style="margin-left: 50px;">
+            <label for="male">It is a modelling language</label><br>
+            <input type="radio" id="b" value="female" style="margin-left: 50px;">
+            <label for="female">It is a scripting language</label><br>
+            <input type="radio" id="c" value="female" style="margin-left: 50px;">
+            <label for="female">It is a partial programming language</label><br>
+            <input type="radio" id="d" value="female" style="margin-left: 50px;">
+            <label for="female">It is used to structure documents</label><br>
         </div>
-       </section>
+        <center><div>
+          <button type="submit" class="submit-btn">Submit</button>
+      </div></center>
+      </form>
+    </div>
 </body>
 </html>
