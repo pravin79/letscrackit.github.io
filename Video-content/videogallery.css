@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.side-video-bx{
+    /* width: 350px;
+    height: 50px; */
+    cursor: pointer;
+    display: flex;
+    margin: 20px 0;
+}
+
+.text-description{
+    font-weight: 400;
+}
+
+.side-video-bx video{
+    width: 150px;
+}
+
+.side-video-bx h6{
+    margin-left: 20px;
+    font-size: 15px;
+    margin: auto 10px;
+    font-weight: bold;
+}
+
+.time{
+    font-size: 12px;
+    color: rgba(17, 17, 17, 0.404);
+    margin: 10px 0;
+}
+
+.active{
+    background: rgba(129, 129, 129, 0.144);
+    border-radius: 5px;
+}
