@@ -6,7 +6,7 @@
 
 .header{
     background: rgb(114, 27, 255);  
-    padding: 0 4%;
+    padding: 0 1%;
     /* overflow-x: hidden; */
 }
 
@@ -382,3 +382,12 @@
   .dropdown:hover .dropdown-content {display: block;background: #fff;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  /* Footer Logo Img */
+  /* .logo-img{
+      width: 60px;
+      right: 18px;
+      position: relative;
+      
+  } */
