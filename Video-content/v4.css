@@ -37,3 +37,8 @@
     background: rgba(129, 129, 129, 0.144);
     border-radius: 5px;
 }
+
+#video{
+    margin: 20px 0;
+    padding: 0 2%;
+}
